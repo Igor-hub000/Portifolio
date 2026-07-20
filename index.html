@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Igor Scaroni | Desenvolvedor Full-Stack</title>
+    <meta name="description"
+        content="Portfólio de Igor Scaroni, desenvolvedor Full-Stack. Projetos, stack técnica e contato.">
+    <meta property="og:title" content="Igor Scaroni - Desenvolvedor Full-Stack">
+    <meta property="og:description" content="Portfólio de Igor Scaroni, desenvolvedor Full-Stack.">
+    <meta property="og:image" content="imagens/eu.png">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#0f1120">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-blur blue"></div>
+    <div class="bg-blur red"></div>
+
+    <header>
+        <nav class="mapa">
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <div id="inicio" class="fade-in show">
+        <img src="imagens/eu.png" alt="Foto de perfil">
+        <h1>Igor Scaroni</h1>
+        <h3>-Desenvolvedor Full-Stack-</h3>
+    </div>
+
+    <div id="sobre" class="fade-in">
+        <h2>Sobre Mim</h2>
+        <p>
+            Olá, Sou um desenvolvedor <span>Full-Stack</span> apaixonado por criar experiencias
+            unicas na web. Combino <span>codigo limpo</span> sem gambiarras com um <span>design moderno</span>
+            para desenvolver sites que não so funcionam perfeitamente, mas também
+            <span>Impressionam visualmente.</span>
+        </p>
+
+        <div class="skills-list">
+            <span class="skill-tag">Python (Intermediário)</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Git & GitHub</span>
+        </div>
+    </div>
+
+    <div id="projetos" class="fade-in">
+        <h2>Meus Projetos</h2>
+
+        <div class="projetos-container">
+
+            <div class="card">
+                <img src="imagens/Pousada.png" alt="Projeto Pousada">
+                <div class="card-content">
+                    <h3>Pousada Paradiso</h3>
+                    <p>
+                        Site institucional desenvolvido com HTML, CSS e JavaScript.
+                    </p>
+                    <div class="card-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://github.com/Igor-hub000/Pousada-Paradiso" target="_blank" rel="noopener">Ver código</a>
+                        <a href="https://igor-hub000.github.io/Pousada-Paradiso/" target="_blank" rel="noopener">Ver ao vivo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imagens/Apple.png" alt="Projeto Apple">
+                <div class="card-content">
+                    <h3>Apple Products Store</h3>
+                    <p>
+                        Landing page inspirada na Apple com animações e design moderno.
+                    </p>
+                    <div class="card-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://github.com/Igor-hub000/Apple-Products-Store" target="_blank" rel="noopener">Ver código</a>
+                        <a href="https://igor-hub000.github.io/Apple-Products-Store/" target="_blank" rel="noopener">Ver ao vivo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imagens/Usuarios.png" alt="Sistema">
+                <div class="card-content">
+                    <h3>Sistema de Usuários</h3>
+                    <p>
+                        Sistema completo para gerenciamento de usuários.
+                    </p>
+                    <div class="card-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://github.com/Igor-hub000/Sistema-de-Usuarios" target="_blank" rel="noopener">Ver código</a>
+                        <a href="https://igor-hub000.github.io/Sistema-de-Usuarios/" target="_blank" rel="noopener">Ver ao vivo</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contato" class="fade-in">
+        <h2>Contato</h2>
+        <p>Quer bater um papo sobre uma vaga ou projeto? Fico à disposição.</p>
+
+        <div class="contato-links">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=scaronigor1903@gmail.com" target="_blank"
+                rel="noopener">E-mail</a>
+            <a href="https://github.com/Igor-hub000" target="_blank" rel="noopener">GitHub</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Igor Scaroni. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
